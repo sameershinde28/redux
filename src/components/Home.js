@@ -13,7 +13,7 @@ function Home() {
                 </div>
                 <div className='text-wrapper item'>
                     <span>I-PHONE</span>
-                    <span>PRICE:$20,000</span>
+                    <span>PRICE:$10,000</span>
                 </div>
 
                 <div className='btn-wrapper item'>
