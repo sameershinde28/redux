@@ -1,9 +1,13 @@
 import React from 'react';
+import './App.css';
 
 const User=(props)=>{
+    console.log(props);
+    console.log(props.data);
+    console.log(props.data.name);
     return(
-        <div>
-            <h1 style={{color:"white",textTransform:'uppercase',display:"block"}}>User Component {props.data.name}</h1>
+        <div className='demo'>
+            <h1>User Component {props.data.name}</h1>
         </div>
     )
 }
